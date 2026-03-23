@@ -492,7 +492,7 @@ jobs:
         run: gradle assembleRelease --project-dir .
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: tuyul-digital
           path: app/build/outputs/apk/release/app-release.apk
